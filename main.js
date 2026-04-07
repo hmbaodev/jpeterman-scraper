@@ -90,8 +90,8 @@ async function runScraper(baseUrl, startPage, endPage) {
 }
 
 // --- CẤU HÌNH TẠI ĐÂY ---
-const URL_CUA_BAN = 'https://jpeterman.com/collections/all'; // Thay link thật vào đây
-const TRANG_BAT_DAU = 1;
-const TRANG_KET_THUC = 3;
+const url = 'https://jpeterman.com/collections/all'; // Thay link thật vào đây
+const startPage = 1;
+const endPage = 3;
 
-runScraper(URL_CUA_BAN, TRANG_BAT_DAU, TRANG_KET_THUC);
+runScraper(url, startPage, endPage);
